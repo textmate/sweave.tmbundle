@@ -9,10 +9,6 @@
 		<string>snw</string>
 		<string>rnw</string>
 	</array>
-	<key>foldingStartMarker</key>
-	<string>^&lt;&lt;(.?*)&gt;&gt;=|\\begin\{.*\}</string>
-	<key>foldingStopMarker</key>
-	<string>^@(.?*)$|\\end\{.*\}</string>
 	<key>keyEquivalent</key>
 	<string>^~S</string>
 	<key>name</key>
