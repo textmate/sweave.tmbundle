@@ -10,7 +10,7 @@ M=${TM_LATEX_MASTER:=$TM_DIRECTORY/${TM_FILENAME%.*}.tex}
 M=${M%.*}.pdf
 #M=$TM_DIRECTORY/$M
 
-echo "&lt;meta http-equiv=\"refresh\" content=\"0; tm-file://${M}\"&gt;&lt;title&gt;${M}&lt;/title&gt;"
+echo "&lt;meta http-equiv=\"refresh\" content=\"0; file://${M}\"&gt;&lt;title&gt;${M}&lt;/title&gt;"
 
 echo "loading &lt;b&gt;$M&lt;/b&gt;"
 

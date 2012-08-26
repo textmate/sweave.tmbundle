@@ -59,7 +59,7 @@ RC=$?
 # If there is output and it's newer than the current document, then we go directly to preview or link to it.
 if [ -s "${PDF}" -a ! "$PDF" -ot "$FILE" ]; then
 	if [[ "$V" == html ]]; then
-		WEB_LOC="tm-file://${DIR}/${PDF}"
+		WEB_LOC="file://${DIR}/${PDF}"
 		WEB_LOC="${WEB_LOC//\\#/%23}"
 		if (($RC &gt; $EL))
 			then link "${WEB_LOC}" 'Click Here to Preview'
